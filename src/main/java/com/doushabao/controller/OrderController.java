@@ -15,6 +15,10 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    /**
+     * orders表里总数
+     * @return
+     */
     @RequestMapping(path = "/order/orderCount", method = {RequestMethod.POST, RequestMethod.GET})
     public Integer getOrderCount(){
         logger.info("count");

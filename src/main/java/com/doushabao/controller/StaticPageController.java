@@ -8,6 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class StaticPageController {
 
+    /**
+     * orders总数
+     * @return
+     */
     @RequestMapping(value = "/order/orderDetail", method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView orderDetail(){
         ModelAndView mav = new ModelAndView();

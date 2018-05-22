@@ -10,6 +10,7 @@ public class OrderService {
     @Autowired
     private OrderDao orderDao;
 
+    //orders表里总数
     public Integer getOrderCount(){
         return orderDao.getOrderCount();
     }

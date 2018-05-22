@@ -21,6 +21,7 @@ public class Config {
     static {
         Properties properties = new Properties();
         try {
+            //以流的形式加载配置文件
             properties.load(Config.class.getClassLoader().getResourceAsStream("config.properties"));
         } catch (IOException e) {
             e.printStackTrace();

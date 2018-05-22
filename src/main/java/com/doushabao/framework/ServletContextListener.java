@@ -18,7 +18,9 @@ public class ServletContextListener implements javax.servlet.ServletContextListe
     private static final Logger logger = Logger.getLogger(ServletContextListener.class);
 
     public void contextInitialized(ServletContextEvent sce) {
+        //设置静态文件访问路径
         sce.getServletContext().setAttribute("resourceUrlPrefix", Config.RESOURCE_URL_PREFIX);
+        //设置项目访问路径
         sce.getServletContext().setAttribute("hostContextPrefix", Config.HOST_CONTEXT_PREFIX);
     }
 
