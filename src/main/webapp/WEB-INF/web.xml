@@ -28,6 +28,7 @@
 
     <servlet-mapping>
         <servlet-name>mvc</servlet-name>
+        <!-- 支持对RESTful -->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
@@ -37,7 +38,7 @@
 
     <!-- 项目监听器 -->
     <listener>
-        <listener-class>com.doushabao.framework.ServletContextListener</listener-class>
+        <listener-class>com.doushabao.framework.listener.ServletContextListener</listener-class>
     </listener>
 
 </web-app>

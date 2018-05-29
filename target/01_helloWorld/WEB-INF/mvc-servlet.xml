@@ -22,7 +22,21 @@
     <context:annotation-config/>
 
     <!-- 自动注册RequestMappingHandlerMapping(控制处理器)与RequestMappingHandlerAdapter(控制处理器适配器) -->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven conversion-service="myConversionService"/>
+
+     <!--自定义类型绑定转换conversionService ？？？？不起作用？？？？-->
+    <bean id="myConversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <!-- 在这里配置绑定转换器 -->
+        <property name="converters">
+            <set>
+                <!-- 字符串转换成时间 yyyy-MM-dd HH:mm:ss -->
+                <ref bean="dateConverters"/>
+            </set>
+        </property>
+    </bean>
+
+    <!-- 全局异常处理 -->
+    <bean class="com.doushabao.framework.exceptiondeal.GlobalExceptionResolver"></bean>
 
     <!-- 对转向页面的路径解析。prefix：前缀，suffix：后缀 -->
     <bean
@@ -32,9 +46,15 @@
 
     <!-- 静态资源加载 -->
     <mvc:resources location="/WEB-INF/resource/" mapping="/resource/**"/>
-
-    <!-- mybatis事务管理 -->
-    <tx:annotation-driven transaction-manager="transactionManagerMybatis"/>
+    
+    <!-- mvc拦截器 顺序执行 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- /** 表示拦截所有的url及其子路经-->
+            <mvc:mapping path="/**"/>
+            <bean class="com.doushabao.framework.interceptor.LogHandlerInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <!-- 配置读取bd文件 -->
     <bean id="config" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -94,11 +114,12 @@
         <property name="sqlSessionTemplateBeanName" value="sqlSessionTemplate"/>
     </bean>
 
-    <!-- 事务配置 -->
+    <!-- 事务管理配置 数据源与mybatis一致-->
     <bean id="transactionManagerMybatis" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSourceMybatis"/>
     </bean>
 
+    <!-- 基于注解的声明式事务管理 -->
     <tx:annotation-driven transaction-manager="transactionManagerMybatis"/>
 
 </beans>

@@ -17,7 +17,12 @@ public class OrderService {
     }
 
     /**insert into orders*/
-    public OrderEntity insertOrders(OrderEntity order) {
-        return orderDao.insertOrders(order);
+    public void insertOrders(OrderEntity order) {
+        orderDao.insertOrders(order);
+    }
+
+    /** find only one order entity */
+    public OrderEntity getOrderEntity(String ticketNo){
+        return orderDao.getOrderEntity(ticketNo);
     }
 }

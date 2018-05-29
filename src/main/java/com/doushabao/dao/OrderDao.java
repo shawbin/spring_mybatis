@@ -19,7 +19,12 @@ public class OrderDao {
 
     /**insert into orders*/
     @Transactional
-    public OrderEntity insertOrders(OrderEntity order) {
-        return orderMapper.insertOrders(order);
+    public void insertOrders(OrderEntity order) {
+        orderMapper.insertOrders(order);
+    }
+
+    /** find only one order entity */
+    public OrderEntity getOrderEntity(String ticketNo){
+        return orderMapper.getOrderEntity(ticketNo);
     }
 }
