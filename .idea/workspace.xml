@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b5228d-2d19-4e6e-85c4-5c7a0f1f81f3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/log.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/entity/TSysBill.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/entity/TSysBillExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/mappers/TSysBillMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/mappers/TSysBillMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/mybatis-generator.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/01_helloWorld_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/01_helloWorld_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01_helloWorld.iml" afterPath="$PROJECT_DIR$/01_helloWorld.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +86,8 @@
       <file leaf-file-name="TSysBillMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/doushabao/mappers/TSysBillMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="660">
+              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding>
                 <marker date="1527605160443" expanded="true" signature="5503:5609" ph="select from t_sys_bill" />
                 <marker date="1527605160443" expanded="true" signature="5892:5952" ph="delete from t_sys_bill... " />
@@ -118,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#497#505#0" expanded="true" />
@@ -330,41 +318,31 @@
               <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2222,7 +2200,7 @@
       <workItem from="1527503391975" duration="330000" />
       <workItem from="1527513419983" duration="3724000" />
       <workItem from="1527521573876" duration="803000" />
-      <workItem from="1527602696990" duration="2651000" />
+      <workItem from="1527602696990" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="Simple to sort out">
       <created>1527087953968</created>
@@ -2238,7 +2216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527602885645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mybatis generator sql">
+      <created>1527605391298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527605391298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2247,7 +2232,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103498000" />
+    <option name="totallyTimeSpent" value="103720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2262,7 +2247,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52290505" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52290505" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23444206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2336,7 +2321,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simple to sort out" />
     <MESSAGE value="exception&amp;interceptor&amp;converters" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception&amp;interceptor&amp;converters" />
+    <MESSAGE value="mybatis generator sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2686,7 +2672,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#497#505#0" expanded="true" />
@@ -2728,8 +2714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/doushabao/mappers/TSysBillMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="660">
+          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding>
             <marker date="1527605160443" expanded="true" signature="5503:5609" ph="select from t_sys_bill" />
             <marker date="1527605160443" expanded="true" signature="5892:5952" ph="delete from t_sys_bill... " />
