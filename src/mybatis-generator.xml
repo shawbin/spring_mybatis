@@ -5,41 +5,36 @@
 
 <generatorConfiguration>
 
+    <!-- ?tinyInt1isBit=false -->
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://139.196.29.173:3306/dsb_saas"
-                        userId="doushabao"
-                        password="dousha8ao@2017@PLsuccess">
+                        connectionURL="jdbc:mysql://159.65.104.7:13306/EXHUB_EXCHANGE?tinyInt1isBit=false"
+                        userId="root"
+                        password="root">
         </jdbcConnection>
 
         <javaTypeResolver >
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.doushabao.saas.pojo.company" targetProject=".\src">
+        <javaModelGenerator targetPackage="io.exhub.exhub_access.pojo.DO" targetProject=".\src">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="com.doushabao.saas.mapper.company"  targetProject=".\src">
+        <sqlMapGenerator targetPackage="io.exhub.exhub_access.pojo.DO"  targetProject=".\src">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.doushabao.saas.mapper.company"  targetProject=".\src">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="io.exhub.exhub_access.mapper"  targetProject=".\src">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <!--<table tableName="t_product_step_price" domainObjectName="ProductStepPrice"/>-->
-        <table tableName="t_company" domainObjectName="Company"/>
-        <table tableName="t_company_extend" domainObjectName="CompanyExtend"/>
-        <table tableName="t_company_extend_type" domainObjectName="CompanyExtendType"/>
-        <!--<table tableName="t_order" domainObjectName="Order"/>
-        <table tableName="t_order_upload_log" domainObjectName="OrderUploadLog"/>
-        <table tableName="t_order_bill_log" domainObjectName="OrderBillLog"/>
-        <table tableName="t_order_product" domainObjectName="OrderProduct"/>
-        <table tableName="t_wx_pay_log" domainObjectName="WxPayLog"/>-->
-
-
+       <!-- <table tableName="t_identity_authentication" domainObjectName="IdentityAuthenticationDO">
+            &lt;!&ndash;<columnOverride column="wallet" javaType="JSONObject" typeHandler="io.exhub.exhub_access.common.JsonTypeHandler"/>&ndash;&gt;
+        </table>-->
+        <!--<table tableName="t_login_record" domainObjectName="LoginRecordDO"/>-->
+        <table tableName="t_identity_authentication" domainObjectName="IdentityAuthenticationDO"/>
         <!--<table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer" >
             <property name="useActualColumnNames" value="true"/>
             <generatedKey column="ID" sqlStatement="DB2" identity="true" />
