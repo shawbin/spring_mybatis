@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- spring注解 扫描包 -->
+    <context:component-scan base-package="com.doushabao"/>
+
+    <!-- 开启注解 -->
+    <context:annotation-config/>
+
+    <!-- 自动注册RequestMappingHandlerMapping(控制处理器)与RequestMappingHandlerAdapter(控制处理器适配器) -->
+    <mvc:annotation-driven conversion-service="myConversionService"/>
+
+     <!--自定义类型绑定转换conversionService ？？？？不起作用？？？？-->
+    <bean id="myConversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <!-- 在这里配置绑定转换器 -->
+        <property name="converters">
+            <set>
+                <!-- 字符串转换成时间 yyyy-MM-dd HH:mm:ss -->
+                <ref bean="dateConverters"/>
+            </set>
+        </property>
+    </bean>
+
+    <!-- 全局异常处理 -->
+    <bean class="com.doushabao.framework.exceptiondeal.GlobalExceptionResolver"></bean>
+
+    <!-- 对转向页面的路径解析。prefix：前缀，suffix：后缀 -->
+    <bean
+            class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+            p:viewClass="org.springframework.web.servlet.view.JstlView" p:prefix="/WEB-INF/jsp/"
+            p:suffix=".jsp"/>
+
+    <!-- 静态资源加载 -->
+    <mvc:resources location="/WEB-INF/resource/" mapping="/resource/**"/>
+    
+    <!-- mvc拦截器 顺序执行 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- /** 表示拦截所有的url及其子路经-->
+            <mvc:mapping path="/**"/>
+            <bean class="com.doushabao.framework.interceptor.LogHandlerInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!-- 配置读取bd文件 -->
+    <bean id="config" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:db.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- dataSourceMyBatis 数据源用c3p0 -->
+    <!-- 当数据库连接不使用的时候,就把该连接重新放到数据池中,方便下次使用调用. -->
+    <bean id="dataSourceMybatis" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClass" value="${jdbc.driverClassName}"/>
+        <!--连接池中保留的最大连接数。Default: 15 -->
+        <property name="maxPoolSize" value="15"/>
+        <!--连接池中保留的最小连接数。 -->
+        <property name="minPoolSize" value="5"/>
+        <!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
+        <property name="initialPoolSize" value="10"/>
+        <!--最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0 -->
+        <property name="maxIdleTime" value="600"/>
+        <!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 -->
+        <property name="acquireIncrement" value="5"/>
+        <!--JDBC的标准参数，用以控制数据源内加载的PreparedStatements数量。但由于预缓存的statements 属于单个connection而不是整个连接池。所以设置这个参数需要考虑到多方面的因素。
+            如果maxStatements与maxStatementsPerConnection均为0，则缓存被关闭。Default: 0 -->
+        <property name="maxStatements" value="0"/>
+        <!--每60秒检查所有连接池中的空闲连接。Default: 0 -->
+        <property name="idleConnectionTestPeriod" value="0"/>
+        <!--定义在从数据库获取新连接失败后重复尝试的次数。Default: 30 -->
+        <property name="acquireRetryAttempts" value="30"/>
+        <!--获取连接失败将会引起所有等待连接池来获取连接的线程抛出异常。但是数据源仍有效 保留，并在下次调用getConnection()的时候继续尝试获取连接。如果设为true，那么在尝试
+            获取连接失败后该数据源将申明已断开并永久关闭。Default: false -->
+        <property name="breakAfterAcquireFailure" value="false"/>
+        <!--因性能消耗大请只在需要的时候使用它。如果设为true那么在每个connection提交的 时候都将校验其有效性。建议使用idleConnectionTestPeriod或automaticTestTable
+            等方法来提升连接测试的性能。Default: false -->
+        <property name="testConnectionOnCheckout" value="false"/>
+    </bean>
+
+    <!-- 配置mybatis会话工厂 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSourceMybatis"/>
+    </bean>
+
+    <!-- 配置SqlSessionTemplate负责管理MyBatis的SqlSession,调用MyBatis的SQL方法,SqlSessionTemplate是线程安全的 -->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <!-- 通过构造函数注入 -->
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <!-- 配置mybatis mapper接口 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.doushabao.mappers"/>
+        <property name="sqlSessionTemplateBeanName" value="sqlSessionTemplate"/>
+    </bean>
+
+    <!-- 事务管理配置 数据源与mybatis一致-->
+    <bean id="transactionManagerMybatis" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSourceMybatis"/>
+    </bean>
+
+    <!-- 基于注解的声明式事务管理 -->
+    <tx:annotation-driven transaction-manager="transactionManagerMybatis"/>
+
+</beans>

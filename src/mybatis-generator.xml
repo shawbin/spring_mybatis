@@ -8,7 +8,7 @@
     <!-- ?tinyInt1isBit=false -->
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://159.65.104.7:13306/EXHUB_EXCHANGE?tinyInt1isBit=false"
+                        connectionURL="jdbc:mysql://159.65.104.7:13306/EXHUB_EXCHANGE"
                         userId="root"
                         password="root">
         </jdbcConnection>
@@ -22,7 +22,7 @@
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="io.exhub.exhub_access.pojo.DO"  targetProject=".\src">
+        <sqlMapGenerator targetPackage="io.exhub.exhub_access.mapper"  targetProject=".\src">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
@@ -30,11 +30,16 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-       <!-- <table tableName="t_identity_authentication" domainObjectName="IdentityAuthenticationDO">
-            &lt;!&ndash;<columnOverride column="wallet" javaType="JSONObject" typeHandler="io.exhub.exhub_access.common.JsonTypeHandler"/>&ndash;&gt;
+        <table tableName="t_coin_asset" domainObjectName="CoinAssetDO"/>
+        <!--<table tableName="user" domainObjectName="UserDO">
+            <columnOverride column="wallet" javaType="JSONObject" typeHandler="io.exhub.exhub_manager.config.handler.JsonTypeHandler"/>
         </table>-->
         <!--<table tableName="t_login_record" domainObjectName="LoginRecordDO"/>-->
-        <table tableName="t_identity_authentication" domainObjectName="IdentityAuthenticationDO"/>
+        <!--<table tableName="t_identity_authentication" domainObjectName="IdentityAuthenticationDO"/>-->
+        <!--<table tableName="t_manager_user" domainObjectName="ManagerUserDO"/>-->
+        <!--<table tableName="t_point_record" domainObjectName="PointRecordDO"/>-->
+        <!--<table tableName="t_manager_role" domainObjectName="ManagerRoleDO"/>
+        <table tableName="t_manager_module" domainObjectName="ManagerModuleDO"/>-->
         <!--<table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer" >
             <property name="useActualColumnNames" value="true"/>
             <generatedKey column="ID" sqlStatement="DB2" identity="true" />

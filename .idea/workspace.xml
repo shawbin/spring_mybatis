@@ -7,74 +7,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b5228d-2d19-4e6e-85c4-5c7a0f1f81f3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/entity/UserDO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/entity/UserDOExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyProductMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyProductMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/SyncUserLogMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/SyncUserLogMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/UserDOMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/UserDOMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyProduct.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyProductExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/SyncUserLog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/SyncUserLogExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/UserDO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/UserDOExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/IdentityAuthenticationDOMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/LoginRecordDOMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDOExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDOMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/LoginRecordDO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/LoginRecordDOExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/LoginRecordDOMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/exhub/exhub_access/common/JsonTypeHandler.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/01_helloWorld_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/01_helloWorld_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/CoinAssetDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/CoinAssetDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/PointRecordDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/PointRecordDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/CoinAssetDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/CoinAssetDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/PointRecordDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/PointRecordDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/CoinAssetDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/CoinAssetDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/IdentityAuthenticationDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/IdentityAuthenticationDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerModuleDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerModuleDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerRoleDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerRoleDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerUserDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerUserDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/PointRecordDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/PointRecordDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/UserDOMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/UserDOMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/CoinAssetDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/CoinAssetDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/IdentityAuthenticationDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/IdentityAuthenticationDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerModuleDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerModuleDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerRoleDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerRoleDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerUserDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerUserDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/PointRecordDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/PointRecordDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/UserDO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/UserDOExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/ResultEnum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/commonUtils/Config.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/commonUtils/DateUtils.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/controller/OrderController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/controller/StaticPageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/dao/OrderDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/entity/OrderEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/framework/converters/DateConverters.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/framework/exceptiondeal/GlobalException.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/framework/exceptiondeal/GlobalExceptionResolver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/framework/interceptor/LogHandlerInterceptor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/framework/listener/ServletContextListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/mappers/OrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/mybatisgenerator/MybatisGeneratorCode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/service/OrderService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/servlet/HelloWorld.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/com/doushabao/sqlproviders/OrderSqlProviders.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/db.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/jsp/error.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/jsp/order/order_detail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/c3p0-0.9.5.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/jackson-annotations-2.9.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/jackson-core-2.9.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/jackson-databind-2.9.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/jsp-api-2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/jstl-api-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/mchange-commons-java-0.2.11.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/mybatis-3.4.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/mybatis-spring-1.3.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/mysql-connector-java-5.1.34.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-beans-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-context-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-expression-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-jdbc-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-tx-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-web-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/spring-webmvc-5.0.6.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/mvc-servlet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/resource/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/01_helloWorld/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/ResultEnum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/commonUtils/Config.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/commonUtils/DateUtils.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/controller/OrderController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/controller/StaticPageController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/dao/OrderDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/entity/OrderEntity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/framework/converters/DateConverters.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/framework/exceptiondeal/GlobalException.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/framework/exceptiondeal/GlobalExceptionResolver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/framework/interceptor/LogHandlerInterceptor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/framework/listener/ServletContextListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/mappers/OrderMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/mybatisgenerator/MybatisGeneratorCode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/service/OrderService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/servlet/HelloWorld.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/doushabao/sqlproviders/OrderSqlProviders.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/io/exhub/exhub_access/common/JsonTypeHandler.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01_helloWorld.iml" afterPath="$PROJECT_DIR$/01_helloWorld.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyExtendTypeMapper.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyExtendTypeMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyExtendTypeMapper.xml" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyExtendTypeMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyMapper.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyMapper.xml" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/Company.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/Company.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExample.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExtendType.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExtendType.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExtendTypeExample.java" afterPath="$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExtendTypeExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.java" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDOMapper.xml" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/IdentityAuthenticationDOMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/LoginRecordDOMapper.xml" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/LoginRecordDOMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDO.java" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDO.java" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOExample.java" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOMapper.xml" afterPath="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.xml" />
       <change beforePath="$PROJECT_DIR$/src/mybatis-generator.xml" afterPath="$PROJECT_DIR$/src/mybatis-generator.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -114,98 +163,8 @@
       <file leaf-file-name="mybatis-generator.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mybatis-generator.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="105" lean-forward="false" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdentityAuthenticationDO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-              <folding>
-                <element signature="e#4500#4501#0" expanded="true" />
-                <element signature="e#4525#4526#0" expanded="true" />
-                <element signature="e#4841#4842#0" expanded="true" />
-                <element signature="e#4869#4870#0" expanded="true" />
-                <element signature="e#5192#5193#0" expanded="true" />
-                <element signature="e#5221#5222#0" expanded="true" />
-                <element signature="e#5559#5560#0" expanded="true" />
-                <element signature="e#5595#5596#0" expanded="true" />
-                <element signature="e#5929#5930#0" expanded="true" />
-                <element signature="e#5961#5962#0" expanded="true" />
-                <element signature="e#6316#6317#0" expanded="true" />
-                <element signature="e#6392#6393#0" expanded="true" />
-                <element signature="e#6723#6724#0" expanded="true" />
-                <element signature="e#6754#6755#0" expanded="true" />
-                <element signature="e#7104#7105#0" expanded="true" />
-                <element signature="e#7177#7178#0" expanded="true" />
-                <element signature="e#7523#7524#0" expanded="true" />
-                <element signature="e#7559#7560#0" expanded="true" />
-                <element signature="e#8345#8346#0" expanded="true" />
-                <element signature="e#8374#8375#0" expanded="true" />
-                <element signature="e#8712#8713#0" expanded="true" />
-                <element signature="e#8748#8749#0" expanded="true" />
-                <element signature="e#9079#9080#0" expanded="true" />
-                <element signature="e#9110#9111#0" expanded="true" />
-                <element signature="e#9460#9461#0" expanded="true" />
-                <element signature="e#9533#9534#0" expanded="true" />
-                <element signature="e#9867#9868#0" expanded="true" />
-                <element signature="e#9899#9900#0" expanded="true" />
-                <element signature="e#10254#10255#0" expanded="true" />
-                <element signature="e#10330#10331#0" expanded="true" />
-                <element signature="e#10664#10665#0" expanded="true" />
-                <element signature="e#10696#10697#0" expanded="true" />
-                <element signature="e#11051#11052#0" expanded="true" />
-                <element signature="e#11127#11128#0" expanded="true" />
-                <element signature="e#11476#11477#0" expanded="true" />
-                <element signature="e#11513#11514#0" expanded="true" />
-                <element signature="e#12305#12306#0" expanded="true" />
-                <element signature="e#12334#12335#0" expanded="true" />
-                <element signature="e#12670#12671#0" expanded="true" />
-                <element signature="e#12706#12707#0" expanded="true" />
-                <element signature="e#13032#13033#0" expanded="true" />
-                <element signature="e#13062#13063#0" expanded="true" />
-                <element signature="e#13405#13406#0" expanded="true" />
-                <element signature="e#13475#13476#0" expanded="true" />
-                <element signature="e#13810#13811#0" expanded="true" />
-                <element signature="e#13843#13844#0" expanded="true" />
-                <element signature="e#14201#14202#0" expanded="true" />
-                <element signature="e#14245#14246#0" expanded="true" />
-                <element signature="e#14580#14581#0" expanded="true" />
-                <element signature="e#14613#14614#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdentityAuthenticationDOMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDOMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1532427751920" expanded="true" signature="5599:5719" ph="select from t_identity_authentication" />
-                <marker date="1532427751920" expanded="true" signature="5999:6073" ph="delete from t_identity_authentication... " />
-                <marker date="1532427751920" expanded="true" signature="6397:6434" ph="delete from t_identity_authentication... " />
-                <marker date="1532427751920" expanded="true" signature="6834:7523" ph="insert into t_identity_authentication... " />
-                <marker date="1532427751920" expanded="true" signature="10498:10544" ph="select count... t_identity_authentication" />
-                <marker date="1532427751920" expanded="true" signature="12900:13712" ph="update t_identity_authentication... " />
-                <marker date="1532427751920" expanded="true" signature="14143:15528" ph="update t_identity_authentication... " />
-                <marker date="1532427751920" expanded="true" signature="15848:16565" ph="update t_identity_authentication... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdentityAuthenticationDOMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/IdentityAuthenticationDOMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="756">
+              <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -214,21 +173,38 @@
       <file leaf-file-name="MybatisGeneratorCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginRecordDO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/LoginRecordDO.java">
+      <file leaf-file-name="CoinAssetDO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/CoinAssetDO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinAssetDOMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/CoinAssetDOMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <marker date="1533809483309" expanded="true" signature="5165:5272" ph="select from t_coin_asset" />
+                <marker date="1533809483309" expanded="true" signature="5552:5613" ph="delete from t_coin_asset... " />
+                <marker date="1533809483309" expanded="true" signature="5924:5948" ph="delete from t_coin_asset... " />
+                <marker date="1533809483309" expanded="true" signature="6335:6814" ph="insert into t_coin_asset... " />
+                <marker date="1533809483309" expanded="true" signature="9045:9078" ph="select count... t_coin_asset" />
+                <marker date="1533809483309" expanded="true" signature="10902:11448" ph="update t_coin_asset... " />
+                <marker date="1533809483309" expanded="true" signature="11866:12789" ph="update t_coin_asset... " />
+                <marker date="1533809483309" expanded="true" signature="13096:13582" ph="update t_coin_asset... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,12 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cm.doushabao.servlet/HelloWprld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cm.doushabao.servlet/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/servlet/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/CommonUtils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/JDBCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/JDBCTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.Properties" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/applicationContext.xml" />
@@ -297,7 +267,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/doushabao/sqlproviders/OrderSqlProviders.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doushabao/mappers/OrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doushabao/dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doushabao/framework/DateConverters.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/doushabao/entity/OrderEntity.java" />
@@ -326,8 +295,15 @@
         <option value="$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/UserDOMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/exhub/exhub_access/common/JsonTypeHandler.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/doushabao/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.xml" />
+        <option value="$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/UserDOMapper.xml" />
+        <option value="$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerUserDO.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/CoinAssetDOMapper.xml" />
       </list>
     </option>
   </component>
@@ -379,10 +355,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -426,6 +401,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -515,113 +493,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="commonUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="converters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptiondeal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
               <item name="mybatisgenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="doushabao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="01_helloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -638,9 +510,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,13 +533,6 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IntellijWorkSpace\01_helloWorld\src" />
-      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\resources" />
-      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\webapp\WEB-INF" />
-      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\test" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.doushabao.entity" />
     </key>
@@ -682,6 +544,13 @@
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/jdonee/Spring-boot-shiro-spring-session-redis-example.git" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\01_helloWorld\src\io\exhub\exhub_access\mapper" />
+      <recent name="E:\IntellijWorkSpace\01_helloWorld\src" />
+      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\resources" />
+      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\webapp\WEB-INF" />
+      <recent name="E:\IntellijWorkSpace\01_helloWorld\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2521,7 +2390,19 @@
       <workItem from="1532003510499" duration="1274000" />
       <workItem from="1532053624280" duration="885000" />
       <workItem from="1532427463003" duration="664000" />
-      <workItem from="1532486041618" duration="26000" />
+      <workItem from="1532486041618" duration="869000" />
+      <workItem from="1532586215863" duration="800000" />
+      <workItem from="1532587514655" duration="83000" />
+      <workItem from="1532595460400" duration="294000" />
+      <workItem from="1532597533550" duration="1233000" />
+      <workItem from="1532606933959" duration="234000" />
+      <workItem from="1532660841627" duration="948000" />
+      <workItem from="1533218488213" duration="562000" />
+      <workItem from="1533732152060" duration="1174000" />
+      <workItem from="1533735711925" duration="239000" />
+      <workItem from="1533781158571" duration="596000" />
+      <workItem from="1533809465162" duration="669000" />
+      <workItem from="1533888312045" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Simple to sort out">
       <created>1527087953968</created>
@@ -2551,7 +2432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528440436524</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mybatis generator work DO and others">
+      <created>1532486153753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532486153753</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2560,7 +2448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133636000" />
+    <option name="totallyTimeSpent" value="141636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2584,12 +2472,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23444206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33820224" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3966292" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35890558" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31330472" sideWeight="0.5039106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2651,7 +2539,8 @@
     <MESSAGE value="exception&amp;interceptor&amp;converters" />
     <MESSAGE value="mybatis generator sql" />
     <MESSAGE value="mybatis generator sql2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator sql2" />
+    <MESSAGE value="mybatis generator work DO and others" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator work DO and others" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2664,91 +2553,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mappers/WxPayLogMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/pojo/order/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/order/BillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/product/ProductStepPriceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/product/ProductStepPriceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/order/CompanyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/pojo/order/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/order/CompanyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DSB_SaaS/src/main/java/com/doushabao/saas/pojo/company/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24780">
-          <caret line="910" column="5" lean-forward="false" selection-start-line="910" selection-start-column="5" selection-end-line="910" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DSB_SaaS/src/main/java/com/doushabao/saas/pojo/company/CompanyExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/mapper/company/CompanyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/sqlproviders/OrderSqlProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/doushabao/saas/pojo/company/CompanyExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2892,31 +2696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4617">
-          <caret line="171" column="45" lean-forward="false" selection-start-line="171" selection-start-column="45" selection-end-line="171" selection-end-column="45" />
-          <folding>
-            <marker date="1531741825780" expanded="true" signature="7413:7521" ph="select from user" />
-            <marker date="1531741825780" expanded="true" signature="7801:7863" ph="delete from user... " />
-            <marker date="1531741825780" expanded="true" signature="8169:8185" ph="delete from user... " />
-            <marker date="1531741825780" expanded="true" signature="8567:9121" ph="insert into user... " />
-            <marker date="1531741825780" expanded="true" signature="11439:11464" ph="select count... user" />
-            <marker date="1531741825780" expanded="true" signature="13374:13995" ph="update user... " />
-            <marker date="1531741825780" expanded="true" signature="14408:15413" ph="update user... " />
-            <marker date="1531741825780" expanded="true" signature="15715:16276" ph="update user... " />
-            <marker date="1531741825780" expanded="true" signature="16120:16276" ph="update user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDOMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/exhub/exhub_access/common/JsonTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -2984,25 +2764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
           <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="105" lean-forward="false" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3010,83 +2771,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2079">
           <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-          <folding>
-            <element signature="e#4500#4501#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
-            <element signature="e#4841#4842#0" expanded="true" />
-            <element signature="e#4869#4870#0" expanded="true" />
-            <element signature="e#5192#5193#0" expanded="true" />
-            <element signature="e#5221#5222#0" expanded="true" />
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5595#5596#0" expanded="true" />
-            <element signature="e#5929#5930#0" expanded="true" />
-            <element signature="e#5961#5962#0" expanded="true" />
-            <element signature="e#6316#6317#0" expanded="true" />
-            <element signature="e#6392#6393#0" expanded="true" />
-            <element signature="e#6723#6724#0" expanded="true" />
-            <element signature="e#6754#6755#0" expanded="true" />
-            <element signature="e#7104#7105#0" expanded="true" />
-            <element signature="e#7177#7178#0" expanded="true" />
-            <element signature="e#7523#7524#0" expanded="true" />
-            <element signature="e#7559#7560#0" expanded="true" />
-            <element signature="e#8345#8346#0" expanded="true" />
-            <element signature="e#8374#8375#0" expanded="true" />
-            <element signature="e#8712#8713#0" expanded="true" />
-            <element signature="e#8748#8749#0" expanded="true" />
-            <element signature="e#9079#9080#0" expanded="true" />
-            <element signature="e#9110#9111#0" expanded="true" />
-            <element signature="e#9460#9461#0" expanded="true" />
-            <element signature="e#9533#9534#0" expanded="true" />
-            <element signature="e#9867#9868#0" expanded="true" />
-            <element signature="e#9899#9900#0" expanded="true" />
-            <element signature="e#10254#10255#0" expanded="true" />
-            <element signature="e#10330#10331#0" expanded="true" />
-            <element signature="e#10664#10665#0" expanded="true" />
-            <element signature="e#10696#10697#0" expanded="true" />
-            <element signature="e#11051#11052#0" expanded="true" />
-            <element signature="e#11127#11128#0" expanded="true" />
-            <element signature="e#11476#11477#0" expanded="true" />
-            <element signature="e#11513#11514#0" expanded="true" />
-            <element signature="e#12305#12306#0" expanded="true" />
-            <element signature="e#12334#12335#0" expanded="true" />
-            <element signature="e#12670#12671#0" expanded="true" />
-            <element signature="e#12706#12707#0" expanded="true" />
-            <element signature="e#13032#13033#0" expanded="true" />
-            <element signature="e#13062#13063#0" expanded="true" />
-            <element signature="e#13405#13406#0" expanded="true" />
-            <element signature="e#13475#13476#0" expanded="true" />
-            <element signature="e#13810#13811#0" expanded="true" />
-            <element signature="e#13843#13844#0" expanded="true" />
-            <element signature="e#14201#14202#0" expanded="true" />
-            <element signature="e#14245#14246#0" expanded="true" />
-            <element signature="e#14580#14581#0" expanded="true" />
-            <element signature="e#14613#14614#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/IdentityAuthenticationDOMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/IdentityAuthenticationDOMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1532427751920" expanded="true" signature="5599:5719" ph="select from t_identity_authentication" />
-            <marker date="1532427751920" expanded="true" signature="5999:6073" ph="delete from t_identity_authentication... " />
-            <marker date="1532427751920" expanded="true" signature="6397:6434" ph="delete from t_identity_authentication... " />
-            <marker date="1532427751920" expanded="true" signature="6834:7523" ph="insert into t_identity_authentication... " />
-            <marker date="1532427751920" expanded="true" signature="10498:10544" ph="select count... t_identity_authentication" />
-            <marker date="1532427751920" expanded="true" signature="12900:13712" ph="update t_identity_authentication... " />
-            <marker date="1532427751920" expanded="true" signature="14143:15528" ph="update t_identity_authentication... " />
-            <marker date="1532427751920" expanded="true" signature="15848:16565" ph="update t_identity_authentication... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/IdentityAuthenticationDOMapper.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11178">
+          <caret line="414" column="46" lean-forward="false" selection-start-line="414" selection-start-column="39" selection-end-line="414" selection-end-column="46" />
+          <folding>
+            <marker date="1532586888901" expanded="true" signature="7485:7593" ph="select from user" />
+            <marker date="1532586888901" expanded="true" signature="7873:7935" ph="delete from user... " />
+            <marker date="1532586888901" expanded="true" signature="8241:8257" ph="delete from user... " />
+            <marker date="1532586888901" expanded="true" signature="8765:9365" ph="insert into user... " />
+            <marker date="1532586888901" expanded="true" signature="11947:11972" ph="select count... user" />
+            <marker date="1532586888901" expanded="true" signature="13982:14649" ph="update user... " />
+            <marker date="1532586888901" expanded="true" signature="15062:16153" ph="update user... " />
+            <marker date="1532586888901" expanded="true" signature="16455:17055" ph="update user... " />
+            <marker date="1532586888901" expanded="true" signature="17168:17269" ph="select from user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/UserDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/UserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/UserDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5076">
+          <caret line="188" column="16" lean-forward="false" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/IdentityAuthenticationDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerUserDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerUserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/mapper/ManagerUserDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/PointRecordDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/PointRecordDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_manager/pojo/DO/ManagerModuleDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doushabao/mybatisgenerator/MybatisGeneratorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/pojo/DO/CoinAssetDO.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/exhub/exhub_access/mapper/CoinAssetDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <marker date="1533809483309" expanded="true" signature="5165:5272" ph="select from t_coin_asset" />
+            <marker date="1533809483309" expanded="true" signature="5552:5613" ph="delete from t_coin_asset... " />
+            <marker date="1533809483309" expanded="true" signature="5924:5948" ph="delete from t_coin_asset... " />
+            <marker date="1533809483309" expanded="true" signature="6335:6814" ph="insert into t_coin_asset... " />
+            <marker date="1533809483309" expanded="true" signature="9045:9078" ph="select count... t_coin_asset" />
+            <marker date="1533809483309" expanded="true" signature="10902:11448" ph="update t_coin_asset... " />
+            <marker date="1533809483309" expanded="true" signature="11866:12789" ph="update t_coin_asset... " />
+            <marker date="1533809483309" expanded="true" signature="13096:13582" ph="update t_coin_asset... " />
+          </folding>
         </state>
       </provider>
     </entry>
